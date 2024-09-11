@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<!----------------Header Navigation----------------->
+    <nav class="flex-div">
+        <div class="nav-left">
+            <i class="fa-brands fa-spotify"></i>
+        </div>
+
+        <div class="nav-middle flex-div">
+             <i class="fa-solid fa-house"></i>
+           <div class="search-box flex-div">
+               <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="What do you want to play">
+                <img src="Assets/browse.png" class="mic-search">
+            </div>
+        </div>
+        <div class="nav-right">
+            <a>Sign Up</a>
+            <button class="login-button">Login</button>
+        </div>
+    </nav>
+
+
+   <!------------------------SideBar---------------------------> 
+   <div class="main">
+        <div class="sidebar">
+            <div class="library">
+
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./Assets/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                    
+                    </div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div> 
+               
+                </div>
+                <div class="privacy">
+                   <spam>
+                        <a href="">Legal</a>
+                        <a href="">Safety & Privacy Center</a>
+                        <a href="">Private Policy</a>
+                        <br>
+                        <a href="">Cookies</a>
+                        <a href="">About Ads</a>
+                        <a href="">Accessibility</a>
+                        <br>
+                        <a href="">Cookies</a>
+                    </spam>
+                    <div >
+                        <button class="english-button"><i class="fa-solid fa-globe"></i> English</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!---------------------------Main Content------------------------------>
+        <div class="main-content">
+        
+            <div class="section">
+                <h2>Popular artists</h2>
+                <p>Show all</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assets/artist1img.jpeg" class="card-img artist" alt="">
+                    <p class="card-title">Shreya Ghosal</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></span></div>
+                    <p class="card-info">Artist</p>
+                </div>
+        
+                <div class="card">
+                    <img src=".//Assets/artist2img.jpeg" class="card-img artist" alt="">
+                    <p class="card-title">Arijit Singh</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></span></div>
+                    <p class="card-info">Artist</p>
+                </div>
+        
+                <div class="card">
+                    <img src="./Assets/artist3img.jpeg" class="card-img artist" alt="">
+                    <p class="card-title">A. R. Rahman</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/artist4img.jpeg" class="card-img artist" alt="">
+                    <p class="card-title">Neha Kakkar</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Artist</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Trending now near you</h2>
+                <p>Show all</p>
+            </div>
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="./Assets/card2img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Mahiye Jinna...</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card3img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Mere Paas tum...</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card7img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Square Radio</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card8img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Sacrifice Radio</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h2>Popular albums</h2>
+                <p>Show all</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    img src="./Assets/card9img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Champange Talk</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card10img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Obessed</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card11img.jpeg" class="card-img" alt="">
+                    <p class="card-title">First Rain</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card12img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Hip Hop Love</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h2>Featured Charts</h2>
+                <p>Show all</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assets/card13img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Bollywood - Top...</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+        
+                <div class="card">
+                    <img src=".//Assets/card14img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Retro Hindi - To...</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+        
+                <div class="card">
+                    <img src="./Assets/card15img.jpeg" class="card-img" alt="">
+                    <p class="card-title">International To...</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card16img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Indipop Top 40</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>India's Best</h2>
+                <p>Show all</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assets/card17img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Punjabi 101</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Ultimte 101 Punjabi Hits with Harrdy...</p>
+                </div>
+        
+                <div class="card">
+                    <img src=".//Assets/card18img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Tollywood Pearls</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Finest set of telgu music from the past...</p>
+                </div>
+        
+                <div class="card">
+                    <img src="./Assets/card19img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Bollywood Butter</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">B bole toh biggest blockbusters, right...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./Assets/card20img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Indie India</p>
+                    <div class="play-btn"><span class="play-i"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-info">Best of the Indian Indie Scene. Cover...</p>
+                </div>
+            </div>
+
+            <!------------------------------Footer Section---------------------------------->
+
+            <div class="footer-section">
+                <div class="footer">
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <div>Company
+                                <li><a href="">About</a></li>
+                                <li><a href="">Jobs</a></li>
+                                <li><a href="">For the Record</a></li>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+                            <div>Communities
+                            
+                                <li><a href="">For Artists</a></li>
+                                <li><a href="">Developers</a></li>
+                                <li><a href="">Advertising</a></li>
+                                <li><a href="">Investors</a></li>
+                                <li><a href="">Vendors</a></li>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+
+                            <div>Useful links
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Free Mobile App</a></li>
+                            </div>
+                        </div>
+                        <div class="footer-column">
+                            <div>Spotify Plans
+                            
+                                <li><a href="">Premium Individal</a></li>
+                                <li><a href="">Premium Duo</a></li>
+                                <li><a href="">Premium Family</a></li>
+                                <li><a href="">Premium Student</a></li>
+                                <li><a href="">Spotify Free</a></li>
+                            </div>
+                        </div>
+                    </div>
+               
+                    <div class="social-links">
+                        <div>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <hr>
+
+            <div><p class="copy-right">&copy;2024 Spotify AB</p></div>
+            <div class="Me">Clone Developed by Cincy Mary Sebastian</div>
+        </div>   
+        
+    </div>
+
+   <!---------------------------Sticky Footer------------------------------>
+   <div class="preview">
+        <div class="text">
+            <h4>Preview of Spotify</h4>
+            <p>Sign Up to get unlimited songs and podcast with occational ads. No credit card needed.</p> 
+        </div>
+        <div>
+            <button>Sign Up Free</button>
+        </div>
+    </div> 
+        
+
+</body>
+</html>
